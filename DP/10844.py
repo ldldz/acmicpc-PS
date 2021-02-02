@@ -8,3 +8,4 @@ for _ in range(n - 1):
         tmp[i] = stair[i - 1] + stair[i + 1]
     stair = tmp.copy()
 print(sum(stair) % 1000000000)
+
